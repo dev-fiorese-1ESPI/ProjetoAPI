@@ -49,7 +49,8 @@ main{
     text-align:center;
 }
 #canvas{
-    display:none;/*esconder tela*/
+    position:absolute;
+    left:-9999px;
 }
 #video{
     width:100%;
@@ -98,3 +99,4 @@ footer p{
     display:flex;
     justify-content:center;
     font-weight:700;
+}
